@@ -1,0 +1,171 @@
+:root {
+    --main-color: rgb(1, 36, 186);
+    --accent-color: rgb(9, 216, 98);
+    --text-color: rgb(53, 53, 53);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url("/images/17580.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Montserrat", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+.logo-header {
+    display: flex;
+    justify-content: center;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    height: auto;
+}
+.logo {
+    color: var(--main-color);
+    font-size: 2.5rem;
+    font-weight: 700;
+
+}
+.menu-list {
+    height: 100%;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 40px;
+
+    align-items: center;
+}
+a {
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+/* main */
+.container {
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-container {
+    width: 1100px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.into__info {
+    padding: 0 ;
+    margin: 0;
+}
+.form_container {
+ display: flex;
+    flex-direction: column;
+
+}
+
+.cloud::before {
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--accent-color);
+    content: "\f0c2";
+    font-family: "Font Awesome 5 Free";
+}
+
+.dollar::before {
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--accent-color);
+    content: "\f3d1";
+    font-family: "Font Awesome 5 Free";
+}
+
+.clock::before {
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--accent-color);
+    content: "\f2f2";
+    font-family: "Font Awesome 5 Free";
+}
+.icon-container {
+    display: flex;
+    gap: 20px;
+    width: 80%;
+    margin-top: 60px;
+
+}
+.options {
+    font-weight: 600;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    width: 33%;
+
+}
+h3 {
+    color: var(--accent-color);
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+h1 {
+    font-size: 4rem;
+    color: var(--main-color);
+    padding: 0;
+    margin: 0;
+}
+.intro__form {
+    background-color: white;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, .13) ;
+border-radius: 8px;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 30px;
+}
+label {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+.form-control {
+    margin-left: 30px;
+    margin-right: 30px;
+   padding-bottom: 8px;
+    padding-top: 8px;
+}
+input {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .13);
+}
+.btn {
+    width: 50%;
+    background-color: var(--accent-color);
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 20px 30px 20px 30px;
+    color: white;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
